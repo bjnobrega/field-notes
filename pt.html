@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bruno Nóbrega — Diário de Campo Construindo com IA</title>
+
+<!-- Meta tags -->
+<meta name="description" content="Bruno Nóbrega — biólogo e educador da rede pública construindo produtos EdTech com IA no Brasil.">
+<meta property="og:title" content="Bruno Nóbrega — Diário de Campo Construindo com IA">
+<meta property="og:description" content="Biólogo e educador da rede pública construindo produtos EdTech com IA no Brasil.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+<!-- Favicon SVG -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230F1E1A%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%23C9A227%22>%C2%A7</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero wrap">
+  <div class="lang-toggle">
+    <a href="index.html">EN</a>
+    <a href="pt.html" class="active">PT</a>
+  </div>
+  <div class="eyebrow">Diário de campo / perfil de construtor</div>
+  <h1>Bruno Nóbrega<br><em>formado como biólogo,<br>trabalhando como engenheiro.</em></h1>
+  <p class="lead">Vinte anos em salas de aula da rede pública em Magé, Rio de Janeiro. Sem formação formal em Ciência da Computação — eu construo via pair-programming com IA (usando agentes como ClaudeCode e QwenCode). Sou um educador público, pesquisador e sonhador. Meu objetivo não é apenas entregar software; é aprofundar meu entendimento sobre IA agêntica e construir ferramentas que eu possa eventualmente oferecer de graça aos professores que mais precisam.</p>
+  <div class="hero-meta">
+    <div>Base<span>Magé, RJ — Brasil</span></div>
+    <div>Papel atual<span>Educador &amp; diretor escolar, CIEP 330</span></div>
+    <div>Pesquisa<span>Mestrando, Ensino de Ciências — UFRJ</span></div>
+  </div>
+</header>
+
+<section class="section wrap">
+  <div class="section-head">
+    <h2>O kit de campo</h2>
+    <span class="tag">instrumentos usados em produção, não em demos</span>
+  </div>
+  <div class="kit-strip">
+    <span class="kit-item"><b>Next.js</b> + TypeScript</span>
+    <span class="kit-item"><b>Firebase</b> / Firestore</span>
+    <span class="kit-item"><b>Vercel</b> deployment</span>
+    <span class="kit-item">Antigravity (Google AI Studio) — agente de código</span>
+    <span class="kit-item">Claude — arquitetura &amp; revisão</span>
+    <span class="kit-item">ChatGPT &amp; Perplexity — pesquisa</span>
+    <span class="kit-item">Mercado Pago / Pix webhooks</span>
+    <span class="kit-item">Evolution API — self-hosted, Oracle Cloud</span>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <h2>Coleção: trabalho entregue</h2>
+    <span class="tag">cinco espécimes, catalogados</span>
+  </div>
+  <p class="intro">Cada projeto abaixo resolve um problema que eu realmente tive — na minha própria sala de aula, na minha dissertação, ou na minha cidade. Nenhum começou como uma peça de portfólio.</p>
+
+  <div class="specimens">
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 001 — SAAS / EDTECH</span>
+      <h3>SabedorIA</h3>
+      <div class="role">appsabedoria.com.br</div>
+      <p>Uma plataforma de geração de relatórios que ajuda professores a escrever avaliações de alunos alinhadas à BNCC de forma mais rápida. Construí um banco de descritores de ~190 frases alinhadas ao currículo em 8 categorias, com uma interface de chips clicáveis para pontuar o progresso do aluno — a IA rascunha, o professor decide.</p>
+      <img src="assets/appsabedoria_animacao.gif" alt="Animação do SabedorIA" class="specimen-media">
+      <dl class="taxonomy">
+        <dt>Stack</dt><dd>Next.js, Firebase, Vercel</dd>
+        <dt>Status</dt><dd>Ao vivo, em uso em produção</dd>
+        <dt>Meu papel</dt><dd>Product design + build completo via IA</dd>
+      </dl>
+    </article>
+
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 002 — SAAS / COMÉRCIO LOCAL</span>
+      <h3>barbearIA</h3>
+      <div class="role">Plataforma de agendamento e retenção</div>
+      <p>Construída para pequenas barbearias e salões na Baixada Fluminense: agendamento, pagamentos via Pix (webhook), escalando para um bot de WhatsApp autônomo que lida com reagendamento e retenção sozinho — rodando em uma infraestrutura self-hosted de custo quase zero.</p>
+      <dl class="taxonomy">
+        <dt>Stack</dt><dd>Next.js, Firestore, Evolution API</dd>
+        <dt>Status</dt><dd>Em desenvolvimento, escalando escopo</dd>
+        <dt>Restrição</dt><dd>Projetado para rodar em *free-tier*</dd>
+      </dl>
+    </article>
+
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 003 — EDTECH / AVALIAÇÃO ADAPTATIVA</span>
+      <h3>Simulados engine</h3>
+      <div class="role">Criada para ajudar meu próprio filho</div>
+      <p>Um motor que gera exames práticos (simulados) ajustados às lacunas reais de um aluno, nascido de um problema muito específico: ajudar meu filho a ter um melhor desempenho na escola. Agora evoluindo — ainda indeciso se se tornará um produto independente ou um módulo dentro do SabedorIA.</p>
+      <dl class="taxonomy">
+        <dt>Origem</dt><dd>Construído para um aluno real</dd>
+        <dt>Status</dt><dd>Ativo, estágio inicial</dd>
+        <dt>Dúvida</dt><dd>Produto independente vs. Módulo</dd>
+      </dl>
+    </article>
+
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 004 — FERRAMENTA DE PESQUISA</span>
+      <h3>Pipeline autônomo de análise</h3>
+      <div class="role">Construído para a minha dissertação (M.Sc.)</div>
+      <p>Um fluxo de ponta a ponta que pega dados brutos de pesquisa (escala Likert adaptada do ROSE) através de testes de postos sinalizados de Wilcoxon e correlação bisserial de postos, e depois para a codificação qualitativa contra os indicadores de alfabetização científica de Sasseron &amp; Carvalho — com a IA auxiliando a análise em todas as fases.</p>
+      <dl class="taxonomy">
+        <dt>Método</dt><dd>Misto quanti/quali, instrumentos validados</dd>
+        <dt>Status</dt><dd>Usado para concluir a análise da dissertação</dd>
+        <dt>Impacto</dt><dd>Rigor estatístico real, sem alucinações de IA</dd>
+      </dl>
+    </article>
+
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 005 — ROBÓTICA EDUCACIONAL</span>
+      <h3>Meninas nas Exatas — oficinas</h3>
+      <div class="role">github.com/bjnobrega/oficinas-robotica-microbit</div>
+      <p>Quatro oficinas práticas com BBC micro:bit — magnetometria, registro de dados térmicos, circuitos solares e telemetria de foguetes de água — projetadas para um grupo de pesquisa apenas de meninas para quebrar barreiras de gênero nas áreas STEM. Publicado como um e-book pedagógico completo.</p>
+      <dl class="taxonomy">
+        <dt>Público</dt><dd>Meninas de escola pública, 15–17 anos</dd>
+        <dt>Formato</dt><dd>Oficinas imprimíveis + repositório aberto</dd>
+        <dt>Status</dt><dd>Testado em campo no CIEP/UFRJ</dd>
+      </dl>
+    </article>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <h2>Por que isso importa</h2>
+    <span class="tag">a lacuna para a qual estou construindo</span>
+  </div>
+  <div class="about-grid">
+    <p>Nenhuma grande plataforma de IA hoje constrói especificamente para educadores e pesquisadores de escolas públicas brasileiras — pessoas com restrições reais: orçamentos limitados, infraestrutura irregular e nenhum treinamento formal em software. Eu sou um deles, e descobri que a lacuna não é a capacidade, é a direção: saber o que pedir para o modelo construir, e saber o suficiente para julgar se a resposta está realmente correta.</p>
+    <div>
+      <div class="stat-block"><span class="num">20 anos</span><span class="label">de experiência em sala de aula, biologia</span></div>
+      <div class="stat-block"><span class="num">5</span><span class="label">produtos entregues ou em andamento</span></div>
+      <div class="stat-block"><span class="num">0</span><span class="label">diplomas formais em TI — por design</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact wrap">
+  <h2>Vamos construir algo<br>que sobreviva ao contato com a realidade.</h2>
+  <p>Sou um professor de escola pública no Brasil construindo com orçamento zero. Os governos locais não patrocinam inovação nesse nível, então estou olhando para fora. Estou buscando grants de pesquisa, créditos de API, suporte de hospedagem e acesso a modelos de fronteira para manter este sonho vivo. Se você patrocinar isso, estará me ajudando a testar o estresse do que a IA pode fazer em ambientes de baixo recurso e me permitindo abrir essas ferramentas gratuitamente para aqueles que mais precisam.</p>
+  <div class="links">
+    <a href="https://appsabedoria.com.br" target="_blank" rel="noopener">appsabedoria.com.br ↗</a>
+    <a href="https://github.com/bjnobrega" target="_blank" rel="noopener">github.com/bjnobrega ↗</a>
+    <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+  </div>
+</section>
+
+<footer class="wrap">
+  Magé, Rio de Janeiro — Brasil · construído via AI pair-programming
+</footer>
+
+</body>
+</html>
