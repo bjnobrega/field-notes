@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bruno Nóbrega — Field Notes on Building with AI</title>
+
+<!-- Meta tags adicionadas conforme item 4 -->
+<meta name="description" content="Bruno Nóbrega — biologist and public-school educator building AI-assisted EdTech products in Brazil.">
+<meta property="og:title" content="Bruno Nóbrega — Field Notes on Building with AI">
+<meta property="og:description" content="Biologist and public-school educator building AI-assisted EdTech products in Brazil.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+<!-- Favicon SVG adicionado conforme item 3 -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230F1E1A%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%23C9A227%22>%C2%A7</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Link para o CSS extraído -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero wrap">
+  <div class="eyebrow">Field notes / builder profile</div>
+  <h1>Bruno Nóbrega<br><em>trained as a biologist,<br>working like an engineer.</em></h1>
+  <p class="lead">Twenty years in public-school classrooms in Magé, Rio de Janeiro. No formal CS background — but I direct AI models the way I once directed lab protocols: define the hypothesis, run the experiment, read the data, iterate. The output is shipped software, not slideware.</p>
+  <div class="hero-meta">
+    <div>Based in<span>Magé, RJ — Brazil</span></div>
+    <div>Current role<span>Educator &amp; school administrator, CIEP 330</span></div>
+    <div>Research<span>M.Sc. candidate, Science Education — UFRJ</span></div>
+  </div>
+</header>
+
+<section class="section wrap">
+  <div class="section-head">
+    <h2>The field kit</h2>
+    <span class="tag">instruments used in production, not in demos</span>
+  </div>
+  <div class="kit-strip">
+    <span class="kit-item"><b>Next.js</b> + TypeScript</span>
+    <span class="kit-item"><b>Firebase</b> / Firestore</span>
+    <span class="kit-item"><b>Vercel</b> deployment</span>
+    <span class="kit-item">Antigravity (Google AI Studio) — primary coding agent</span>
+    <span class="kit-item">Claude — architecture &amp; code review</span>
+    <span class="kit-item">ChatGPT &amp; Perplexity — research loop</span>
+    <span class="kit-item">Mercado Pago / Pix webhooks</span>
+    <span class="kit-item">Evolution API — self-hosted, Oracle Cloud</span>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <h2>Collection: shipped work</h2>
+    <span class="tag">five specimens, catalogued</span>
+  </div>
+  <p class="intro">Every project below solves a problem I actually had — in my own classroom, my own dissertation, or my own city. None started as a portfolio piece.</p>
+
+  <div class="specimens">
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 001 — SAAS / EDTECH</span>
+      <h3>SabedorIA</h3>
+      <div class="role">appsabedoria.com.br</div>
+      <p>A report-generation platform that helps teachers write BNCC-aligned student assessments faster. Built a descriptor bank of ~190 curriculum-aligned phrases across 8 categories, with a click-to-cycle chip interface for scoring student progress — AI drafts, the teacher decides.</p>
+      <dl class="taxonomy">
+        <dt>Stack</dt><dd>Next.js, Firebase, Vercel</dd>
+        <dt>Status</dt><dd>Live, in production use</dd>
+        <dt>My role</dt><dd>Product design + full build, via AI pair-programming</dd>
+      </dl>
+    </article>
+
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 002 — SAAS / LOCAL COMMERCE</span>
+      <h3>barbearIA</h3>
+      <div class="role">Booking &amp; retention platform, barbershops and salons</div>
+      <p>Built for small barbershops and salons in the Baixada Fluminense: booking, Pix payments via webhook, scaling toward an autonomous WhatsApp bot that handles rebooking and retention on its own — running on a self-hosted, near-zero-cost stack.</p>
+      <dl class="taxonomy">
+        <dt>Stack</dt><dd>Next.js, Firestore, Evolution API</dd>
+        <dt>Status</dt><dd>In development, scaling scope</dd>
+        <dt>Constraint</dt><dd>Designed to run on free-tier infrastructure</dd>
+      </dl>
+    </article>
+
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 003 — EDTECH / ADAPTIVE ASSESSMENT</span>
+      <h3>Simulados engine</h3>
+      <div class="role">Started as a tool to help my own son study</div>
+      <p>An engine that generates practice exams (simulados) tuned to a student's actual gaps, born out of a very specific problem: helping my son perform better in school. Now evolving — undecided yet whether it becomes a standalone product or a module inside SabedorIA.</p>
+      <dl class="taxonomy">
+        <dt>Origin</dt><dd>Built for a real student — my son</dd>
+        <dt>Status</dt><dd>Active, early-stage</dd>
+        <dt>Open question</dt><dd>Standalone product vs. SabedorIA module</dd>
+      </dl>
+    </article>
+
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 004 — RESEARCH TOOLING</span>
+      <h3>Autonomous analysis-and-writing pipeline</h3>
+      <div class="role">Built for my own M.Sc. dissertation</div>
+      <p>An end-to-end flow that takes raw survey data (ROSE-adapted Likert scale, N=13) through Wilcoxon signed-rank testing and rank-biserial correlation, then into qualitative coding against the Sasseron &amp; Carvalho scientific-literacy indicators — with AI assisting analysis and academic writing at every stage.</p>
+      <dl class="taxonomy">
+        <dt>Method</dt><dd>Mixed quant/qual, validated instruments</dd>
+        <dt>Status</dt><dd>Used to complete dissertation analysis</dd>
+        <dt>Why it matters</dt><dd>Real statistical rigor, not AI hand-waving</dd>
+      </dl>
+    </article>
+
+    <article class="specimen">
+      <span class="tape"></span>
+      <span class="catalog">SPEC. 005 — EDUCATIONAL ROBOTICS</span>
+      <h3>Meninas nas Exatas — micro:bit workshops</h3>
+      <div class="role">github.com/bjnobrega/oficinas-robotica-microbit</div>
+      <p>Four hands-on BBC micro:bit workshops — magnetometry, thermal data logging, solar circuits, and water-rocket telemetry — designed for an all-girls research cohort to break gender barriers in STEM. Published as a full pedagogical e-book with open-sourced materials.</p>
+      <dl class="taxonomy">
+        <dt>Audience</dt><dd>Public-school girls, ages 15–17</dd>
+        <dt>Format</dt><dd>Printable A4 workshops + open GitHub repo</dd>
+        <dt>Status</dt><dd>Field-tested in person, at CIEP/UFRJ</dd>
+      </dl>
+    </article>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head">
+    <h2>Why this matters</h2>
+    <span class="tag">the gap I'm building for</span>
+  </div>
+  <div class="about-grid">
+    <p>No major AI platform today builds specifically for Brazilian public-school educators and researchers — people with real constraints: limited budgets, patchy infrastructure, and no formal software training. I'm one of them, and I've found that the gap isn't capability, it's direction: knowing what to ask a model to build, and knowing enough to judge whether the answer is actually correct.</p>
+    <div>
+      <div class="stat-block"><span class="num">20 yrs</span><span class="label">classroom experience, biology</span></div>
+      <div class="stat-block"><span class="num">5</span><span class="label">shipped or in-progress products</span></div>
+      <div class="stat-block"><span class="num">0</span><span class="label">formal CS degrees — by design, not by gap</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact wrap">
+  <h2>Let's build something<br>that survives contact with reality.</h2>
+  <p>Applying as a Qwen Dev Ambassador to stress-test what's possible for educators and public-sector builders in Brazil — and to document it honestly, including where it breaks.</p>
+  <div class="links">
+    <a href="https://appsabedoria.com.br" target="_blank" rel="noopener">appsabedoria.com.br ↗</a>
+    <a href="https://github.com/bjnobrega" target="_blank" rel="noopener">github.com/bjnobrega ↗</a>
+    <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+  </div>
+</section>
+
+<footer class="wrap">
+  Magé, Rio de Janeiro — Brazil · built with AI pair-programming, like everything above it
+</footer>
+
+</body>
+</html>
