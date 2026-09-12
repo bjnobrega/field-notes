@@ -20,10 +20,12 @@ Este repositório contém o código-fonte do site [bjnobrega.github.io/field-not
 1. **SPEC. 001 — sabedorIA / appwisdom** — [Ao vivo](https://appsabedoria.com.br)
    * *SaaS / EdTech*: plataforma de geração de relatórios que auxilia professores a escrever avaliações de alunos alinhadas à BNCC, com banco de descritores em 8 categorias e interface de pontuação por chips.
    * *Stack*: Next.js, Firebase, Vercel.
+   * *Na prática*: aproximadamente 900 relatórios de alunos apoiados pela ferramenta em dois bimestres, envolvendo cerca de 15 professores e aproximadamente 30 alunos por turma.
 
 2. **SPEC. 002 — Provinha** — [Ao vivo](https://appsabedoria.com.br/provinha)
    * *EdTech / Avaliação*: motor que transforma matrizes curriculares geradas por IA em simuladores leves, gamificados e 100% offline em uma única página HTML.
    * *Stack*: Vanilla JS, Tailwind CSS, LocalStorage.
+   * *Na prática*: testado com cerca de 30 alunos em atividades de estudo e preparação para avaliações.
 
 3. **SPEC. 003 — Análise estatística e qualitativa da dissertação**
    * *Ferramenta de Pesquisa (M.Sc. UFRJ)*: fluxo quanti/quali para dados de pesquisa, com testes de Wilcoxon, correlação bisserial e codificação com indicadores de alfabetização científica de Sasseron & Carvalho.
