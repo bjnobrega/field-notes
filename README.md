@@ -25,7 +25,7 @@ Este repositório contém o código-fonte do site [bjnobrega.github.io/field-not
    * *EdTech / Avaliação*: motor que transforma matrizes curriculares geradas por IA em simuladores leves, gamificados e 100% offline em uma única página HTML.
    * *Stack*: Vanilla JS, Tailwind CSS, LocalStorage.
 
-3. **SPEC. 003 — Pipeline de análise de pesquisa assistido por IA**
+3. **SPEC. 003 — Análise estatística e qualitativa da dissertação**
    * *Ferramenta de Pesquisa (M.Sc. UFRJ)*: fluxo quanti/quali para dados de pesquisa, com testes de Wilcoxon, correlação bisserial e codificação com indicadores de alfabetização científica de Sasseron & Carvalho.
    * *Método*: IA auxilia análise e escrita, com testes estatísticos explícitos e revisão humana.
 
