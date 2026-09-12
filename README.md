@@ -25,22 +25,22 @@ Este repositório contém o código-fonte do site [bjnobrega.github.io/field-not
    * *EdTech / Avaliação*: motor que transforma matrizes curriculares geradas por IA em simuladores leves, gamificados e 100% offline em uma única página HTML.
    * *Stack*: Vanilla JS, Tailwind CSS, LocalStorage.
 
-3. **SPEC. 003 — barbearIA**
-   * *SaaS / Comércio Local*: plataforma em desenvolvimento para agendamento e retenção de clientes em pequenos negócios da Baixada Fluminense, com Pix via webhook e automações de WhatsApp.
-   * *Stack*: Next.js, Firestore, Evolution API / Oracle Cloud.
-
-4. **SPEC. 004 — Pipeline de análise de pesquisa assistido por IA**
+3. **SPEC. 003 — Pipeline de análise de pesquisa assistido por IA**
    * *Ferramenta de Pesquisa (M.Sc. UFRJ)*: fluxo quanti/quali para dados de pesquisa, com testes de Wilcoxon, correlação bisserial e codificação com indicadores de alfabetização científica de Sasseron & Carvalho.
    * *Método*: IA auxilia análise e escrita, com testes estatísticos explícitos e revisão humana.
 
-5. **SPEC. 005 — Meninas na Robótica** — [Projeto](https://bjnobrega.github.io/oficinas-robotica-microbit/) · [GitHub](https://github.com/bjnobrega/oficinas-robotica-microbit)
+4. **SPEC. 004 — Meninas na Robótica** — [Projeto](https://bjnobrega.github.io/oficinas-robotica-microbit/) · [GitHub](https://github.com/bjnobrega/oficinas-robotica-microbit)
    * *Robótica Educacional / Publicação*: produto educacional desenvolvido como parte da dissertação de Mestrado na UFRJ. E-book pedagógico de 83 páginas e flipbook web com 5 oficinas práticas de BBC micro:bit, com foco na participação de meninas em STEM.
    * *Status*: publicado como parte da pesquisa de Mestrado; defesa ainda em andamento no PPG ProfiCiências / UFRJ.
 
-6. **SPEC. 006 — LoudText** — [GitHub](https://github.com/bjnobrega/loud_text)
+5. **SPEC. 005 — LoudText** — [GitHub](https://github.com/bjnobrega/loud_text)
    * *Acessibilidade & Produtividade*: leitor minimalista de texto para voz criado para reduzir fadiga visual e cognitiva em leituras acadêmicas longas.
    * *Stack*: React, TypeScript, Vite, Web Speech API.
    * *Status*: ferramenta pessoal ativa, com código publicamente visível no GitHub.
+
+6. **SPEC. 006 — barbearIA**
+   * *SaaS / Comércio Local*: plataforma em desenvolvimento para agendamento e retenção de clientes em pequenos negócios da Baixada Fluminense, com Pix via webhook e automações de WhatsApp.
+   * *Stack*: Next.js, Firestore, Evolution API / Oracle Cloud.
 
 ---
 
@@ -76,9 +76,11 @@ Ou abra diretamente `index.html` / `pt.html` no navegador.
 
 ---
 
-## 📩 Contato & Apoio
+## ↗ Seguindo em frente
 
-Sou um professor de escola pública no Brasil construindo com orçamento próprio. Busco parcerias, *grants* de pesquisa, créditos de API, suporte de infraestrutura e acesso a modelos para continuar testando IA em contextos reais de baixo recurso e desenvolvendo ferramentas úteis para educação.
+Construo a partir de problemas reais da educação, da pesquisa e do cotidiano, usando o desenvolvimento assistido por IA como ferramenta prática, e não como um fim em si mesmo.
+
+Estou aberto a conversas, colaborações, experimentos e oportunidades que aproximem tecnologia de necessidades reais — especialmente na educação e em contextos de poucos recursos.
 
 * 🌐 **SaaS**: [appsabedoria.com.br](https://appsabedoria.com.br)
 * 🐙 **GitHub**: [github.com/bjnobrega](https://github.com/bjnobrega)
