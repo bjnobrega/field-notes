@@ -9,84 +9,76 @@
 
 ## 📌 Sobre o Projeto
 
-Vinte anos em salas de aula da rede pública em Magé, Rio de Janeiro. Sem formação formal em Ciência da Computação — o desenvolvimento é feito via **pair-programming com IA** (utilizando agentes de código como Antigravity/Google AI Studio, Claude Code e Qwen Code).
+Vinte anos em salas de aula da rede pública no Rio de Janeiro. Minha formação acadêmica é em **Biologia e Educação**, não em Ciência da Computação, e o desenvolvimento é feito por **pair-programming assistido por IA**, utilizando agentes de código como Antigravity/Google AI Studio, Claude Code e Qwen Code.
 
-Este repositório contém o código-fonte do site [bjnobrega.github.io/field-notes](https://bjnobrega.github.io/field-notes/), concebido sob a metáfora visual de um **diário de campo biológico**. Cada projeto é catalogado como um "espécime", nascido de problemas reais vividos em sala de aula, na pesquisa de mestrado ou no comércio local da Baixada Fluminense.
+Este repositório contém o código-fonte do site [bjnobrega.github.io/field-notes](https://bjnobrega.github.io/field-notes/), concebido sob a metáfora visual de um **diário de campo biológico**. Cada projeto é catalogado como um "espécime", nascido de problemas reais vividos na educação pública, na pesquisa de mestrado ou no comércio local da Baixada Fluminense.
 
 ---
 
-## 📦 Coleção de Espécimes (Trabalhos Entregues)
+## 📦 Coleção de Espécimes
 
-1. **SPEC. 001 — sabedorIA / appwisdom** (`appsabedoria.com.br`)
-   * *SaaS / EdTech*: Plataforma de geração de relatórios que auxilia professores a escrever avaliações de alunos alinhadas à BNCC. Possui banco de descritores em 8 categorias com interface de pontuação por chips.
+1. **SPEC. 001 — sabedorIA / appwisdom** — [Ao vivo](https://appsabedoria.com.br)
+   * *SaaS / EdTech*: plataforma de geração de relatórios que auxilia professores a escrever avaliações de alunos alinhadas à BNCC, com banco de descritores em 8 categorias e interface de pontuação por chips.
    * *Stack*: Next.js, Firebase, Vercel.
 
-2. **SPEC. 002 — Provinha** (`appsabedoria.com.br/provinha`)
-   * *EdTech / Avaliação Adaptativa*: Motor autônomo que transforma matrizes curriculares geradas por IA em simuladores de exames leves, gamificados e 100% offline em uma única página HTML.
+2. **SPEC. 002 — Provinha** — [Ao vivo](https://appsabedoria.com.br/provinha)
+   * *EdTech / Avaliação*: motor que transforma matrizes curriculares geradas por IA em simuladores leves, gamificados e 100% offline em uma única página HTML.
    * *Stack*: Vanilla JS, Tailwind CSS, LocalStorage.
 
 3. **SPEC. 003 — barbearIA**
-   * *SaaS / Comércio Local*: Plataforma de agendamento e retenção para barbearias e salões na Baixada Fluminense, com pagamentos Pix (webhooks) e automação via WhatsApp.
-   * *Stack*: Next.js, Firestore, Evolution API (Oracle Cloud free-tier).
+   * *SaaS / Comércio Local*: plataforma em desenvolvimento para agendamento e retenção de clientes em pequenos negócios da Baixada Fluminense, com Pix via webhook e automações de WhatsApp.
+   * *Stack*: Next.js, Firestore, Evolution API / Oracle Cloud.
 
-4. **SPEC. 004 — Pipeline Autônomo de Análise Estatística**
-   * *Ferramenta de Pesquisa (M.Sc. UFRJ)*: Pipeline de análise quanti/quali para dados brutos de pesquisa (escala Likert adaptada do ROSE), aplicando testes de Wilcoxon, correlação bisserial e indicadores de alfabetização científica de Sasseron & Carvalho.
-   * *Método*: Rigor estatístico validado com auxílio de IA na análise e escrita acadêmica.
+4. **SPEC. 004 — Pipeline de análise de pesquisa assistido por IA**
+   * *Ferramenta de Pesquisa (M.Sc. UFRJ)*: fluxo quanti/quali para dados de pesquisa, com testes de Wilcoxon, correlação bisserial e codificação com indicadores de alfabetização científica de Sasseron & Carvalho.
+   * *Método*: IA auxilia análise e escrita, com testes estatísticos explícitos e revisão humana.
 
-5. **SPEC. 005 — Meninas na Robótica** (`bjnobrega.github.io/oficinas-robotica-microbit`)
-   * *Robótica Educacional / Publicação*: Produto educacional da defesa de Mestrado na UFRJ. E-book pedagógico de 83 páginas e flipbook web com 5 oficinas práticas de BBC micro:bit para turmas femininas da rede pública.
-   * *Formato*: Web Flipbook Interativo + PDF Open-source.
+5. **SPEC. 005 — Meninas na Robótica** — [Projeto](https://bjnobrega.github.io/oficinas-robotica-microbit/) · [GitHub](https://github.com/bjnobrega/oficinas-robotica-microbit)
+   * *Robótica Educacional / Publicação*: produto educacional desenvolvido como parte da dissertação de Mestrado na UFRJ. E-book pedagógico de 83 páginas e flipbook web com 5 oficinas práticas de BBC micro:bit, com foco na participação de meninas em STEM.
+   * *Status*: publicado como parte da pesquisa de Mestrado; defesa ainda em andamento no PPG ProfiCiências / UFRJ.
 
-6. **SPEC. 006 — LoudText** (`github.com/bjnobrega/loud_text`)
-   * *Acessibilidade & Produtividade*: Leitor minimalista de texto para voz (TTS) construído para vencer a exaustão cognitiva na leitura de artigos e documentos acadêmicos volumosos.
-   * *Stack*: React, Vite, Web Speech API.
+6. **SPEC. 006 — LoudText** — [GitHub](https://github.com/bjnobrega/loud_text)
+   * *Acessibilidade & Produtividade*: leitor minimalista de texto para voz criado para reduzir fadiga visual e cognitiva em leituras acadêmicas longas.
+   * *Stack*: React, TypeScript, Vite, Web Speech API.
+   * *Status*: ferramenta pessoal ativa, com código publicamente visível no GitHub.
 
 ---
 
-## 🛠️ O Kit de Campo (Stack & Ferramental)
+## 🛠️ O Kit de Campo
 
-* **Desenvolvimento Web**: HTML5 Semântico, CSS3 (Mobile-First), Vanilla JS, Next.js, React, TypeScript.
-* **Backend & Infraestrutura**: Firebase / Firestore, Vercel, Oracle Cloud (Always Free Tier), Evolution API (WhatsApp).
-* **Agentes & Orquestração de IA**:
-  * **Antigravity (Google AI Studio)** — Agente primário de desenvolvimento de código.
-  * **Claude Code & Qwen Code** — Arquitetura, refatoração e revisão de código.
-  * **ChatGPT & Perplexity** — Pesquisa e síntese de informações.
+* **Desenvolvimento Web**: HTML5, CSS3, Vanilla JS, Next.js, React, TypeScript.
+* **Backend & Infraestrutura**: Firebase / Firestore, Vercel, Oracle Cloud, Evolution API.
+* **Agentes & IA**:
+  * **Antigravity / Google AI Studio** — desenvolvimento assistido por IA.
+  * **Claude Code & Qwen Code** — arquitetura, implementação, refatoração e revisão.
+  * **ChatGPT & Perplexity** — pesquisa e síntese de informações.
 
 ---
 
 ## 🎨 Design & Arquitetura Web
 
-- **Mobile-First**: Construído do menor para o maior dispositivo usando CSS nativo com `min-width` media queries.
-- **Zero Dependências**: Desempenho máximo sem necessidade de compilação ou frameworks pesados de frontend no site principal.
-- **Internacionalização**: Suporte nativo bilíngue (Português em `pt.html` e Inglês em `index.html`).
-- **Acessibilidade**: Suporte a navegação por teclado (`:focus-visible`), alto contraste e `prefers-reduced-motion`.
+- **Mobile-first**: CSS nativo com layout responsivo.
+- **Site principal sem framework**: HTML/CSS leve, sem etapa de build.
+- **Bilíngue**: Português em `pt.html` e Inglês em `index.html`.
+- **Acessibilidade**: navegação por teclado, alto contraste e `prefers-reduced-motion`.
 
 ---
 
 ## 🚀 Como Executar Localmente
 
-Como o projeto é construído em HTML/CSS nativo, você não precisa instalar o Node.js nem gerenciar dependências.
+```bash
+git clone https://github.com/bjnobrega/field-notes.git
+cd field-notes
+python -m http.server 8000
+```
 
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/bjnobrega/field-notes.git
-   cd field-notes
-   ```
-
-2. **Abra no navegador**:
-   - Dê um duplo clique no arquivo `index.html` (versão em inglês) ou `pt.html` (versão em português).
-   - Ou utilize a extensão **Live Server** no VS Code / Antigravity IDE.
-   - Ou via terminal com Python:
-     ```bash
-     python -m http.server 8000
-     # Acesse http://localhost:8000
-     ```
+Ou abra diretamente `index.html` / `pt.html` no navegador.
 
 ---
 
 ## 📩 Contato & Apoio
 
-Sou um professor de escola pública no Brasil construindo com orçamento próprio. Busco parcerias, *grants* de pesquisa, créditos de API e acesso a modelos de fronteira para continuar testando o estresse da IA em ambientes de baixo recurso e distribuindo ferramentas gratuitas para professores.
+Sou um professor de escola pública no Brasil construindo com orçamento próprio. Busco parcerias, *grants* de pesquisa, créditos de API, suporte de infraestrutura e acesso a modelos para continuar testando IA em contextos reais de baixo recurso e desenvolvendo ferramentas úteis para educação.
 
 * 🌐 **SaaS**: [appsabedoria.com.br](https://appsabedoria.com.br)
 * 🐙 **GitHub**: [github.com/bjnobrega](https://github.com/bjnobrega)
@@ -96,4 +88,4 @@ Sou um professor de escola pública no Brasil construindo com orçamento própri
 
 ## 📜 Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este site está licenciado sob a [Licença MIT](LICENSE).
